@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JCZJTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JCZJTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JCZJTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JCZJTest: 6123bfddd7092c402e8570c89cb6fb19f05a47b5
+
+PODFILE CHECKSUM: 6b60b829382f5cf4c9bdf9c38e58d8066580cf1a
+
+COCOAPODS: 1.10.1

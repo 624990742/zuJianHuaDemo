@@ -1,0 +1,1254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		022F4FB7A1ECFA5E17C99646102182BE /* JCZJTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A34571B80EF26CEAC3C0C2ED79E3CFD /* JCZJTest-dummy.m */; };
+		027570762819F9889FCA5C06B4929FDC /* JCLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41F9C04CCA220FFEF1C11AB40D9CEBD /* JCLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F8B3E55F043105133405054531D06D /* XCTest.framework */; };
+		1475675433848D4BDC97D2AA2AA0FD61 /* JCZJTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEB2D624350D50E39095490BE8E64BB /* JCZJTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		2472FF740DCCF713C41AE317C90F1A49 /* Pods-JCLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03422CB6E468F71189D6238125DAD9EB /* Pods-JCLogin_Tests-dummy.m */; };
+		2AF2509FD3A3368FEE5D69C2A21EAD70 /* JCTestZuJIan.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FD1F01EF4BC1DAF1E80313BD21CD7D /* JCTestZuJIan.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB2804C4AC3E2B89F893981AF606ABB /* QuartzCore.framework */; };
+		2FD891E2D9C1002A98A8781AB4D7A515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148909F9398D3131FCCCF16F5A20D2A /* Foundation.framework */; };
+		30BC9A692BA8E54B1D1AA3808C881BB8 /* JCZJTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F1A848EAE61ADA0611EFDBD9FE87F4 /* JCZJTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3395FC1E07C2FB48FC0D380EC70C179D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148909F9398D3131FCCCF16F5A20D2A /* Foundation.framework */; };
+		39A722ABAD5130BE5E874A8DD1496095 /* JCLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5463288CB0C836E985749938C374D9E /* JCLogin-dummy.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65871AE31B07769CED318D0ECF47F4C8 /* Pods-JCLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E100DF9D8331058BF645E1BC5F96 /* Pods-JCLogin_Example-dummy.m */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575EFE3282EF3DCBBD4B7DDB4FAE9222 /* UIKit.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C81900177E54F0814E597A5A2748BCD4 /* JCLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FD8D6508E846A21DBCFB4EF66C58B0 /* JCLogic.m */; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148909F9398D3131FCCCF16F5A20D2A /* Foundation.framework */; };
+		CD02E94E0C4A02C4646EEEF53165CA93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148909F9398D3131FCCCF16F5A20D2A /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DE9F4A5889ADFD8B8A0AE6791DCA8E88 /* JCLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A0F5647AE259C8CC7F2F42AA09A5FD /* JCLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2389FAE4B0E960C43FDA7337F087940 /* Pods-JCLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD78EA8F94D0D98E6502D8F708328BCA /* Pods-JCLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3CAD65F4DF4109DADAF02117E408D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2148909F9398D3131FCCCF16F5A20D2A /* Foundation.framework */; };
+		E4A0ACF2BF2BB9AA313F1BA062A051D2 /* JCTestZuJIan.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4867C29DB08C0F7CCF197924F53BF /* JCTestZuJIan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F2A7EBBE010AC75EA0B6A0BB8DAB3A3C /* Pods-JCLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3BBAFD5AEDC7F556B6AB6761EDF257 /* Pods-JCLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3934B4F69D1EADCF783AF0CBCD2D7A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83FBE12F50F3C2FFC50CE51D1113A08A;
+			remoteInfo = "Pods-JCLogin_Example";
+		};
+		7CA019DB15D08CFA8894FBF9D62A94C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0956416BE610A75A20F848301D0AF68D;
+			remoteInfo = JCZJTest;
+		};
+		AE1444F2E2A67371F2579E719941FDE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1C9B52DCB2CEEE53198A54DA375BEF;
+			remoteInfo = JCLogin;
+		};
+		E3B505C75F640A73C03210E3ED45FF86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		EC9A39D4C8BBB6296C40E823F7AF4E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0956416BE610A75A20F848301D0AF68D;
+			remoteInfo = JCZJTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03422CB6E468F71189D6238125DAD9EB /* Pods-JCLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		059A224809A9D7BD7A8DCFB45FC8AB1B /* Pods-JCLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CEB2D624350D50E39095490BE8E64BB /* JCZJTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCZJTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		1075BF35209319C499FC3B682A3AB885 /* JCLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCLogin.framework; path = JCLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FD1F01EF4BC1DAF1E80313BD21CD7D /* JCTestZuJIan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCTestZuJIan.m; path = JCZJTest/Classes/JCTestZuJIan.m; sourceTree = "<group>"; };
+		1823638A190DA1FDEA64044FA96D0E2A /* JCZJTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JCZJTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		2148909F9398D3131FCCCF16F5A20D2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2BAD052B137491318C5760BC53B89670 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2BB6D7B61872793687CE4250901F23FF /* JCLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JCLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		335B98DE9D4EED6D0E8FE623E7DDAAC5 /* Pods_JCLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCLogin_Example.framework; path = "Pods-JCLogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B49409021311FF518F5AC4DAE1D490 /* JCZJTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCZJTest.modulemap; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		43B6DF99574B6A20C1ECFC3A111CA148 /* Pods-JCLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCLogin_Example-Info.plist"; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4D3E8FDA0856F2493EB20AD4D24DF96D /* Pods-JCLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51EDA80E5B34A9A2C48708103E0C7EC3 /* JCZJTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCZJTest.debug.xcconfig; sourceTree = "<group>"; };
+		53D4AACC1CE8C22EF4E25EE7CB8C4CE5 /* JCZJTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCZJTest.framework; path = JCZJTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F060C0406C3B5ABAFA431C90FD38BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		57386E8A4F30EA9643CF3BE3C3B849A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		575EFE3282EF3DCBBD4B7DDB4FAE9222 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		599D98B2E7D8D62323630332E106026F /* Pods-JCLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCLogin_Tests-Info.plist"; sourceTree = "<group>"; };
+		59F1A848EAE61ADA0611EFDBD9FE87F4 /* JCZJTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCZJTest-umbrella.h"; sourceTree = "<group>"; };
+		5A34571B80EF26CEAC3C0C2ED79E3CFD /* JCZJTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCZJTest-dummy.m"; sourceTree = "<group>"; };
+		5BB2171EC4F1DB3987E6D076154D94C7 /* Pods-JCLogin_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCLogin_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6803B328D1F704D166C674BF08BAC91E /* Pods-JCLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6E586669A854DD0697E30850553CD555 /* JCZJTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCZJTest-prefix.pch"; sourceTree = "<group>"; };
+		70FF95098E3F7A3D54D25A8BD70FB3E3 /* Pods-JCLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A9066428AE16CA197436C5A660EE7E1 /* JCZJTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCZJTest.release.xcconfig; sourceTree = "<group>"; };
+		7CE7CE270B0F433475A9F8C47F51C8B4 /* JCZJTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JCZJTest-Info.plist"; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8AB2804C4AC3E2B89F893981AF606ABB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9AF959EB849058C65412EC84D24B1908 /* JCLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCLogin.release.xcconfig; sourceTree = "<group>"; };
+		9D25CF9E74B5E64713A575BEBE843E5E /* Pods-JCLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A786DF83084D203BD7E0B09F28BDB9A9 /* Pods_JCLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCLogin_Tests.framework; path = "Pods-JCLogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3BBAFD5AEDC7F556B6AB6761EDF257 /* Pods-JCLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B38F032135731BED7D4CEAFC29C660E9 /* Pods-JCLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5449430395B7E8BF8D39F49838F5552 /* Pods-JCLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B8FD8D6508E846A21DBCFB4EF66C58B0 /* JCLogic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCLogic.m; path = JCLogin/Classes/JCLogic.m; sourceTree = "<group>"; };
+		B91324A762E7823F5DA53F1CECFB2710 /* Pods-JCLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA178E0A079D79BC76797019D44B7526 /* JCLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCLogin-prefix.pch"; sourceTree = "<group>"; };
+		C5A4867C29DB08C0F7CCF197924F53BF /* JCTestZuJIan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCTestZuJIan.h; path = JCZJTest/Classes/JCTestZuJIan.h; sourceTree = "<group>"; };
+		C5ACE028424B09B4BC3A136EF9C54C06 /* JCLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JCLogin-Info.plist"; sourceTree = "<group>"; };
+		C5B5E100DF9D8331058BF645E1BC5F96 /* Pods-JCLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCLogin_Example-dummy.m"; sourceTree = "<group>"; };
+		C6A0F5647AE259C8CC7F2F42AA09A5FD /* JCLogic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCLogic.h; path = JCLogin/Classes/JCLogic.h; sourceTree = "<group>"; };
+		C7B3672ADAA2C98E6B0897605C977E99 /* Pods-JCLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CD23BF8EBDF9DABED1E5EB3A988A43F1 /* JCLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCLogin.debug.xcconfig; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D73700AEB9A2FE6B3C46CE81DC2492D3 /* Pods-JCLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCLogin_Tests.modulemap"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DD78EA8F94D0D98E6502D8F708328BCA /* Pods-JCLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCLogin_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5463288CB0C836E985749938C374D9E /* JCLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCLogin-dummy.m"; sourceTree = "<group>"; };
+		E6F8B3E55F043105133405054531D06D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E86710B238E36AD7FB3CE4F600CEB7DF /* Pods-JCLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCLogin_Example.modulemap"; sourceTree = "<group>"; };
+		E9B8B71B6D8518EFDADB320B705A367A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F41F9C04CCA220FFEF1C11AB40D9CEBD /* JCLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCLogin-umbrella.h"; sourceTree = "<group>"; };
+		FAA6D1868EF07ABB972688BDF4E23BDA /* JCLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCLogin.modulemap; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC6A1043541D8CD27CE9A0A881DECEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02E94E0C4A02C4646EEEF53165CA93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFAE9D19EFBC033637A91F06C41D313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD891E2D9C1002A98A8781AB4D7A515 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC42469BB8AA247780D3993198B729A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3395FC1E07C2FB48FC0D380EC70C179D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC282708D323E31C1503149A8F1A62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CAD65F4DF4109DADAF02117E408D09 /* Foundation.framework in Frameworks */,
+				1475675433848D4BDC97D2AA2AA0FD61 /* JCZJTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091AA734EF96AB09F3B083B8D6E7A8F8 /* Pods-JCLogin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E86710B238E36AD7FB3CE4F600CEB7DF /* Pods-JCLogin_Example.modulemap */,
+				4D3E8FDA0856F2493EB20AD4D24DF96D /* Pods-JCLogin_Example-acknowledgements.markdown */,
+				70FF95098E3F7A3D54D25A8BD70FB3E3 /* Pods-JCLogin_Example-acknowledgements.plist */,
+				C5B5E100DF9D8331058BF645E1BC5F96 /* Pods-JCLogin_Example-dummy.m */,
+				C7B3672ADAA2C98E6B0897605C977E99 /* Pods-JCLogin_Example-frameworks.sh */,
+				43B6DF99574B6A20C1ECFC3A111CA148 /* Pods-JCLogin_Example-Info.plist */,
+				DD78EA8F94D0D98E6502D8F708328BCA /* Pods-JCLogin_Example-umbrella.h */,
+				9D25CF9E74B5E64713A575BEBE843E5E /* Pods-JCLogin_Example.debug.xcconfig */,
+				B91324A762E7823F5DA53F1CECFB2710 /* Pods-JCLogin_Example.release.xcconfig */,
+			);
+			name = "Pods-JCLogin_Example";
+			path = "Target Support Files/Pods-JCLogin_Example";
+			sourceTree = "<group>";
+		};
+		0C28FBE2D5DFCBC56AC20A88DE132B6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				091AA734EF96AB09F3B083B8D6E7A8F8 /* Pods-JCLogin_Example */,
+				3D40F769F48EDA8A747FD376913D1AB2 /* Pods-JCLogin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		145DABF6046554B60867BE9230F3D315 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38B49409021311FF518F5AC4DAE1D490 /* JCZJTest.modulemap */,
+				5A34571B80EF26CEAC3C0C2ED79E3CFD /* JCZJTest-dummy.m */,
+				7CE7CE270B0F433475A9F8C47F51C8B4 /* JCZJTest-Info.plist */,
+				6E586669A854DD0697E30850553CD555 /* JCZJTest-prefix.pch */,
+				59F1A848EAE61ADA0611EFDBD9FE87F4 /* JCZJTest-umbrella.h */,
+				51EDA80E5B34A9A2C48708103E0C7EC3 /* JCZJTest.debug.xcconfig */,
+				7A9066428AE16CA197436C5A660EE7E1 /* JCZJTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../JCLogin/Example/Pods/Target Support Files/JCZJTest";
+			sourceTree = "<group>";
+		};
+		3D40F769F48EDA8A747FD376913D1AB2 /* Pods-JCLogin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D73700AEB9A2FE6B3C46CE81DC2492D3 /* Pods-JCLogin_Tests.modulemap */,
+				059A224809A9D7BD7A8DCFB45FC8AB1B /* Pods-JCLogin_Tests-acknowledgements.markdown */,
+				6803B328D1F704D166C674BF08BAC91E /* Pods-JCLogin_Tests-acknowledgements.plist */,
+				03422CB6E468F71189D6238125DAD9EB /* Pods-JCLogin_Tests-dummy.m */,
+				5BB2171EC4F1DB3987E6D076154D94C7 /* Pods-JCLogin_Tests-frameworks.sh */,
+				599D98B2E7D8D62323630332E106026F /* Pods-JCLogin_Tests-Info.plist */,
+				AD3BBAFD5AEDC7F556B6AB6761EDF257 /* Pods-JCLogin_Tests-umbrella.h */,
+				B38F032135731BED7D4CEAFC29C660E9 /* Pods-JCLogin_Tests.debug.xcconfig */,
+				B5449430395B7E8BF8D39F49838F5552 /* Pods-JCLogin_Tests.release.xcconfig */,
+			);
+			name = "Pods-JCLogin_Tests";
+			path = "Target Support Files/Pods-JCLogin_Tests";
+			sourceTree = "<group>";
+		};
+		4A130B9DAAB4FD894223EB45540297F3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2BB6D7B61872793687CE4250901F23FF /* JCLogin.podspec */,
+				E9B8B71B6D8518EFDADB320B705A367A /* LICENSE */,
+				57386E8A4F30EA9643CF3BE3C3B849A4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6B888CE079807D2476FDF515DC1F33AC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2148909F9398D3131FCCCF16F5A20D2A /* Foundation.framework */,
+				8AB2804C4AC3E2B89F893981AF606ABB /* QuartzCore.framework */,
+				575EFE3282EF3DCBBD4B7DDB4FAE9222 /* UIKit.framework */,
+				E6F8B3E55F043105133405054531D06D /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		AF224BD79E10CA8188A8246AAC6F5439 /* JCZJTest */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4867C29DB08C0F7CCF197924F53BF /* JCTestZuJIan.h */,
+				16FD1F01EF4BC1DAF1E80313BD21CD7D /* JCTestZuJIan.m */,
+				E43B817F53ED27298545D1C85F07C427 /* Pod */,
+				145DABF6046554B60867BE9230F3D315 /* Support Files */,
+			);
+			name = JCZJTest;
+			path = ../../../JCZJTest;
+			sourceTree = "<group>";
+		};
+		B488382F1140ABEA518CAA2D4414DE89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB2D624350D50E39095490BE8E64BB /* JCZJTest.framework */,
+				6B888CE079807D2476FDF515DC1F33AC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		BDD225B2C5214FD30296AAC5F9B4DFFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6D1868EF07ABB972688BDF4E23BDA /* JCLogin.modulemap */,
+				E5463288CB0C836E985749938C374D9E /* JCLogin-dummy.m */,
+				C5ACE028424B09B4BC3A136EF9C54C06 /* JCLogin-Info.plist */,
+				BA178E0A079D79BC76797019D44B7526 /* JCLogin-prefix.pch */,
+				F41F9C04CCA220FFEF1C11AB40D9CEBD /* JCLogin-umbrella.h */,
+				CD23BF8EBDF9DABED1E5EB3A988A43F1 /* JCLogin.debug.xcconfig */,
+				9AF959EB849058C65412EC84D24B1908 /* JCLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCLogin";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E8F38A3B3623665121456792C998BAD0 /* Development Pods */,
+				B488382F1140ABEA518CAA2D4414DE89 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				F728104326706D0694F4DF4B887673F7 /* Products */,
+				0C28FBE2D5DFCBC56AC20A88DE132B6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E43B817F53ED27298545D1C85F07C427 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1823638A190DA1FDEA64044FA96D0E2A /* JCZJTest.podspec */,
+				56F060C0406C3B5ABAFA431C90FD38BC /* LICENSE */,
+				2BAD052B137491318C5760BC53B89670 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8F38A3B3623665121456792C998BAD0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F13CBD911BF14423C45D5DA04B111A67 /* JCLogin */,
+				AF224BD79E10CA8188A8246AAC6F5439 /* JCZJTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F13CBD911BF14423C45D5DA04B111A67 /* JCLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0F5647AE259C8CC7F2F42AA09A5FD /* JCLogic.h */,
+				B8FD8D6508E846A21DBCFB4EF66C58B0 /* JCLogic.m */,
+				4A130B9DAAB4FD894223EB45540297F3 /* Pod */,
+				BDD225B2C5214FD30296AAC5F9B4DFFC /* Support Files */,
+			);
+			name = JCLogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F728104326706D0694F4DF4B887673F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				1075BF35209319C499FC3B682A3AB885 /* JCLogin.framework */,
+				53D4AACC1CE8C22EF4E25EE7CB8C4CE5 /* JCZJTest.framework */,
+				335B98DE9D4EED6D0E8FE623E7DDAAC5 /* Pods_JCLogin_Example.framework */,
+				A786DF83084D203BD7E0B09F28BDB9A9 /* Pods_JCLogin_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34107763E3927AF3ABEEB70FD0306E4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9F4A5889ADFD8B8A0AE6791DCA8E88 /* JCLogic.h in Headers */,
+				027570762819F9889FCA5C06B4929FDC /* JCLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E70D817AB65BB580E81F1424585C583 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A0ACF2BF2BB9AA313F1BA062A051D2 /* JCTestZuJIan.h in Headers */,
+				30BC9A692BA8E54B1D1AA3808C881BB8 /* JCZJTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621DBBAC58BFFEB24785F0D6E11A36BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A7EBBE010AC75EA0B6A0BB8DAB3A3C /* Pods-JCLogin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667149EF9B0E4C9319978563D16E0D15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2389FAE4B0E960C43FDA7337F087940 /* Pods-JCLogin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0956416BE610A75A20F848301D0AF68D /* JCZJTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B24B4A5FC895FA6A4737E34D9FB215 /* Build configuration list for PBXNativeTarget "JCZJTest" */;
+			buildPhases = (
+				5E70D817AB65BB580E81F1424585C583 /* Headers */,
+				3854DF06AFAFE7C6644B51A17D659809 /* Sources */,
+				7EFAE9D19EFBC033637A91F06C41D313 /* Frameworks */,
+				18B3F51BEB5C702CFCB71BD9583035F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCZJTest;
+			productName = JCZJTest;
+			productReference = 53D4AACC1CE8C22EF4E25EE7CB8C4CE5 /* JCZJTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83FBE12F50F3C2FFC50CE51D1113A08A /* Pods-JCLogin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E233171DFB32398EE6871CFA31DB777 /* Build configuration list for PBXNativeTarget "Pods-JCLogin_Example" */;
+			buildPhases = (
+				667149EF9B0E4C9319978563D16E0D15 /* Headers */,
+				4DDEEA1ABF2A41E074DD7D050F5DB386 /* Sources */,
+				BC42469BB8AA247780D3993198B729A4 /* Frameworks */,
+				94BD1AD0AB8367D07F9324AD09E90F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AAB71B37E4C5107312EC800BC00F503 /* PBXTargetDependency */,
+				3E38A54DE10339C37CB7AB0EC6CB728A /* PBXTargetDependency */,
+			);
+			name = "Pods-JCLogin_Example";
+			productName = "Pods-JCLogin_Example";
+			productReference = 335B98DE9D4EED6D0E8FE623E7DDAAC5 /* Pods_JCLogin_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1FAD6433036FC2CAC96D4137EB962DF /* Pods-JCLogin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E7B7FCFA6FBA5600DCE8B171A30D24 /* Build configuration list for PBXNativeTarget "Pods-JCLogin_Tests" */;
+			buildPhases = (
+				621DBBAC58BFFEB24785F0D6E11A36BC /* Headers */,
+				CF1B615852276BE4CBD441A579419050 /* Sources */,
+				4BC6A1043541D8CD27CE9A0A881DECEC /* Frameworks */,
+				78290354A7A1E014D5264951F6EB6324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00BB2BD52F1152F8B2D901DE9BAE294 /* PBXTargetDependency */,
+				9ED7D8F5008C1B926B5CE33965C44F25 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCLogin_Tests";
+			productName = "Pods-JCLogin_Tests";
+			productReference = A786DF83084D203BD7E0B09F28BDB9A9 /* Pods_JCLogin_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA1C9B52DCB2CEEE53198A54DA375BEF /* JCLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24172D541B2E24439205EDDC52C11569 /* Build configuration list for PBXNativeTarget "JCLogin" */;
+			buildPhases = (
+				34107763E3927AF3ABEEB70FD0306E4D /* Headers */,
+				BD491CB21950E90759F4F96A474783B8 /* Sources */,
+				CC282708D323E31C1503149A8F1A62DC /* Frameworks */,
+				C8E7540FA7F6C7E38ED4979BC3F20D7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A0595BDAD52138B3C6356D76ACEEDD /* PBXTargetDependency */,
+			);
+			name = JCLogin;
+			productName = JCLogin;
+			productReference = 1075BF35209319C499FC3B682A3AB885 /* JCLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F728104326706D0694F4DF4B887673F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				FA1C9B52DCB2CEEE53198A54DA375BEF /* JCLogin */,
+				0956416BE610A75A20F848301D0AF68D /* JCZJTest */,
+				83FBE12F50F3C2FFC50CE51D1113A08A /* Pods-JCLogin_Example */,
+				F1FAD6433036FC2CAC96D4137EB962DF /* Pods-JCLogin_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B3F51BEB5C702CFCB71BD9583035F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78290354A7A1E014D5264951F6EB6324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BD1AD0AB8367D07F9324AD09E90F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E7540FA7F6C7E38ED4979BC3F20D7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3854DF06AFAFE7C6644B51A17D659809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF2509FD3A3368FEE5D69C2A21EAD70 /* JCTestZuJIan.m in Sources */,
+				022F4FB7A1ECFA5E17C99646102182BE /* JCZJTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDEEA1ABF2A41E074DD7D050F5DB386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65871AE31B07769CED318D0ECF47F4C8 /* Pods-JCLogin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD491CB21950E90759F4F96A474783B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81900177E54F0814E597A5A2748BCD4 /* JCLogic.m in Sources */,
+				39A722ABAD5130BE5E874A8DD1496095 /* JCLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1B615852276BE4CBD441A579419050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2472FF740DCCF713C41AE317C90F1A49 /* Pods-JCLogin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AAB71B37E4C5107312EC800BC00F503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCLogin;
+			target = FA1C9B52DCB2CEEE53198A54DA375BEF /* JCLogin */;
+			targetProxy = AE1444F2E2A67371F2579E719941FDE8 /* PBXContainerItemProxy */;
+		};
+		3E38A54DE10339C37CB7AB0EC6CB728A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCZJTest;
+			target = 0956416BE610A75A20F848301D0AF68D /* JCZJTest */;
+			targetProxy = EC9A39D4C8BBB6296C40E823F7AF4E65 /* PBXContainerItemProxy */;
+		};
+		67A0595BDAD52138B3C6356D76ACEEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCZJTest;
+			target = 0956416BE610A75A20F848301D0AF68D /* JCZJTest */;
+			targetProxy = 7CA019DB15D08CFA8894FBF9D62A94C2 /* PBXContainerItemProxy */;
+		};
+		9ED7D8F5008C1B926B5CE33965C44F25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCLogin_Example";
+			target = 83FBE12F50F3C2FFC50CE51D1113A08A /* Pods-JCLogin_Example */;
+			targetProxy = 3934B4F69D1EADCF783AF0CBCD2D7A39 /* PBXContainerItemProxy */;
+		};
+		D00BB2BD52F1152F8B2D901DE9BAE294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = E3B505C75F640A73C03210E3ED45FF86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		030D206C420F2E7279A37F77EE5C863B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9066428AE16CA197436C5A660EE7E1 /* JCZJTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCZJTest/JCZJTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCZJTest/JCZJTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCZJTest/JCZJTest.modulemap";
+				PRODUCT_MODULE_NAME = JCZJTest;
+				PRODUCT_NAME = JCZJTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CC95F0A6421011BC44938B58D57AB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D25CF9E74B5E64713A575BEBE843E5E /* Pods-JCLogin_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCLogin_Example/Pods-JCLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCLogin_Example/Pods-JCLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21399604235E142AA201A8166621C26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD23BF8EBDF9DABED1E5EB3A988A43F1 /* JCLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCLogin/JCLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCLogin/JCLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCLogin/JCLogin.modulemap";
+				PRODUCT_MODULE_NAME = JCLogin;
+				PRODUCT_NAME = JCLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		458F23A194F0B6523FD6001625D7C71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91324A762E7823F5DA53F1CECFB2710 /* Pods-JCLogin_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCLogin_Example/Pods-JCLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCLogin_Example/Pods-JCLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D60D3BAFF363B562127FC14DD6428C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38F032135731BED7D4CEAFC29C660E9 /* Pods-JCLogin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCLogin_Tests/Pods-JCLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCLogin_Tests/Pods-JCLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FB6FA812CC9B54DB6EEED1D7F87E8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5449430395B7E8BF8D39F49838F5552 /* Pods-JCLogin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCLogin_Tests/Pods-JCLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCLogin_Tests/Pods-JCLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DDF5683C1FFF4BF7191C15CA2893BF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EDA80E5B34A9A2C48708103E0C7EC3 /* JCZJTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCZJTest/JCZJTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCZJTest/JCZJTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCZJTest/JCZJTest.modulemap";
+				PRODUCT_MODULE_NAME = JCZJTest;
+				PRODUCT_NAME = JCZJTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A20E3FBA0D56C4A687E95482D7BBDD91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF959EB849058C65412EC84D24B1908 /* JCLogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCLogin/JCLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCLogin/JCLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCLogin/JCLogin.modulemap";
+				PRODUCT_MODULE_NAME = JCLogin;
+				PRODUCT_NAME = JCLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E233171DFB32398EE6871CFA31DB777 /* Build configuration list for PBXNativeTarget "Pods-JCLogin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC95F0A6421011BC44938B58D57AB17 /* Debug */,
+				458F23A194F0B6523FD6001625D7C71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24172D541B2E24439205EDDC52C11569 /* Build configuration list for PBXNativeTarget "JCLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21399604235E142AA201A8166621C26E /* Debug */,
+				A20E3FBA0D56C4A687E95482D7BBDD91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B24B4A5FC895FA6A4737E34D9FB215 /* Build configuration list for PBXNativeTarget "JCZJTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDF5683C1FFF4BF7191C15CA2893BF0 /* Debug */,
+				030D206C420F2E7279A37F77EE5C863B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E7B7FCFA6FBA5600DCE8B171A30D24 /* Build configuration list for PBXNativeTarget "Pods-JCLogin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D60D3BAFF363B562127FC14DD6428C1 /* Debug */,
+				6FB6FA812CC9B54DB6EEED1D7F87E8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

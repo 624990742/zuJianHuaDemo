@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JCLogin (0.1.0):
+    - JCZJTest
+  - JCZJTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JCLogin (from `../`)
+  - JCZJTest (from `../../JCZJTest`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JCLogin:
+    :path: "../"
+  JCZJTest:
+    :path: "../../JCZJTest"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JCLogin: 5132173482217135003c5f97dc52f7e42019d47c
+  JCZJTest: 6123bfddd7092c402e8570c89cb6fb19f05a47b5
+
+PODFILE CHECKSUM: 28e0a62ad86a99a9034f3d9f2895a054656b8c57
+
+COCOAPODS: 1.10.1

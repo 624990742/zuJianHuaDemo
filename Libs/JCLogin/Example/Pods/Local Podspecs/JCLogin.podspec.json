@@ -1,0 +1,27 @@
+{
+  "name": "JCLogin",
+  "version": "0.1.0",
+  "summary": "A short description of JCLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/624990742@qq.com/JCLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "624990742@qq.com": "624990742@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/624990742@qq.com/JCLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JCLogin/Classes/**/*",
+  "dependencies": {
+    "JCZJTest": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module JCZJTest {
+  umbrella header "JCZJTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

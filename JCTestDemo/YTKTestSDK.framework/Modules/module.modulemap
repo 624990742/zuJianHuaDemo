@@ -1,0 +1,6 @@
+framework module YTKTestSDK {
+  umbrella header "YTKTestSDK.h"
+
+  export *
+  module * { export * }
+}

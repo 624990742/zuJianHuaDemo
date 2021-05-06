@@ -1,0 +1,6 @@
+framework module Pods_JCZJTest_Tests {
+  umbrella header "Pods-JCZJTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

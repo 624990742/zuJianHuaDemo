@@ -1,0 +1,6 @@
+framework module JCLogin {
+  umbrella header "JCLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

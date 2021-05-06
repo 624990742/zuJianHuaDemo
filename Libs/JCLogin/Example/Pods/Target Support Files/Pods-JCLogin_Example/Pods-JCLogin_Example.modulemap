@@ -1,0 +1,6 @@
+framework module Pods_JCLogin_Example {
+  umbrella header "Pods-JCLogin_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
